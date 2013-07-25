@@ -1,15 +1,15 @@
 %define upstream_name    GPS-Point
-%define upstream_version 0.18
+%define upstream_version 0.20
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.20
+Release:	1
 
 Summary:	Provides an object interface for a GPS point
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/GPS/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/GPS/GPS-Point-0.20.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Scalar::Util)
@@ -52,4 +52,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sun Oct 31 2010 Olivier Thauvin <nanardon@mandriva.org> 0.180.0-1mdv2011.0
 + Revision: 590777
 - import perl-GPS-Point
+
 
