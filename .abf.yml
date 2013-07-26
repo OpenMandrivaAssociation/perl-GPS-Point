@@ -1,2 +1,4 @@
+removed_sources:
+  GPS-Point-0.18.tar.gz: 84d689d29e1e861da42a65a323cbbf451c356353
 sources:
-  "GPS-Point-0.18.tar.gz": 84d689d29e1e861da42a65a323cbbf451c356353
+  GPS-Point-0.20.tar.gz: cd55db3f337f39dfd4836b0ff7ee8d3f91dfa81d
