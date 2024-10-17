@@ -8,7 +8,7 @@ Release:	3
 Summary:	Provides an object interface for a GPS point
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/GPS/GPS-Point-0.20.tar.gz
 
 BuildRequires:	perl-devel
