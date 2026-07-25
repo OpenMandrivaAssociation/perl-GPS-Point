@@ -2,14 +2,14 @@
 %define upstream_version 0.20
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.20
-Release:	3
+Version:	%{upstream_version}
+Release:	4
 
 Summary:	Provides an object interface for a GPS point
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/GPS/GPS-Point-0.20.tar.gz
+Url:		https://metacpan.org/dist/GPS-Point
+Source0:	https://cpan.metacpan.org/authors/id/M/MR/MRDVT/GPS-Point-0.20.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
