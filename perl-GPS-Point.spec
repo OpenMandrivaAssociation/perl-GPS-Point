@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%{upstream_version}
-Release:	4
+Release:	1
 
 Summary:	Provides an object interface for a GPS point
 License:	GPL+ or Artistic
@@ -44,14 +44,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc README Changes LICENSE META.yml
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
-
-%changelog
-* Sun Apr 17 2011 Funda Wang <fwang@mandriva.org> 0.180.0-2mdv2011.0
-+ Revision: 654332
-- rebuild for updated spec-helper
-
-* Sun Oct 31 2010 Olivier Thauvin <nanardon@mandriva.org> 0.180.0-1mdv2011.0
-+ Revision: 590777
-- import perl-GPS-Point
-
 
