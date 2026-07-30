@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	0.20
-Release:	3
+Release:	4
 
 Summary:	Provides an object interface for a GPS point
 License:	GPL+ or Artistic
